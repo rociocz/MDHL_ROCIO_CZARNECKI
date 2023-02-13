@@ -21,6 +21,7 @@ a {
     text-decoration: none;
     font-weight: bold;
     font-size: 1rem;
+    font-weight: bold;
 }
 a:hover{
     background-color: blueviolet;
@@ -49,7 +50,7 @@ a:hover{
     align-items: center;
     display: grid;
     padding: 2%;
-    margin-top: -12rem;
+    margin-top: -11rem;
     margin-left: 15rem;
 }
 .infocontacto{
@@ -64,4 +65,18 @@ a:hover{
 
 .correo{
     background-color: white!important;
+}
+
+dt{
+    background-color: crimson;
+    padding: 1%;
+    font-weight: bold;
+}
+
+#imgabout{
+    margin-top: 2rem;
+}
+
+.contactonav{
+    text-align: right;
 }
