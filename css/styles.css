@@ -56,21 +56,46 @@ h2{
 
 
 .info{
-    display: block;;
+    display: block;
     background-color: rgb(60, 157, 97);
     color: rgb(255, 211, 15);
 }
 
-div dd{
+dd p{
     text-align: center;
 }
 
-div dt{
+dt p{
     color: black !important;
     font-weight: bold;
     text-align: center;
 }
 
+.infoind{
+    margin-top: -10rem;
+    margin-left: 10rem;
+    height: 30vw;
+}
+
+.historia{
+    margin-top: -12rem;
+    margin-left: 15rem;
+    height: 30vw;
+}
+
+.contacto{
+    margin-top: -8rem;
+    margin-left: 20rem;
+    height: 25vw;
+}
+
+#img3{
+    margin: 3rem;
+}
+
+#img4{
+    margin: 2rem;
+}
 
 
 
