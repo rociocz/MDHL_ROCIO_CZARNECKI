@@ -72,9 +72,8 @@ dt p{
 }
 
 .infoind{
-    margin-top: -10rem;
-    margin-left: 10rem;
-    height: 30vw;
+    margin-top: -13rem;
+    height: 15vw;
 }
 
 .historia{
@@ -95,6 +94,9 @@ dt p{
 
 #img4{
     margin: 2rem;
+}
+#img2{
+    margin: 3rem;
 }
 
 
