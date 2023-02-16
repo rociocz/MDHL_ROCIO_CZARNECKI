@@ -1,5 +1,7 @@
+/*INDEX*/
+
 *{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -42,7 +44,7 @@ nav a{
     padding: 1rem;
     border-radius: 1rem;
     text-decoration: none;
-    margin: 1%;
+   /* margin: 1%;*/
 }
 
 nav a:hover{
@@ -248,67 +250,61 @@ li{
     list-style-type: circle;
 }
 
+/*Formulario*/
 
+.titulorf{
+    text-align: center;
+    background-color: rgb(5, 119, 107);
+}
 
-/*#bg_main_list {
-    min-height: 60vh;
+fieldset {
+    margin: 1rem;
+    padding: 1rem;
+    border-color: rgb(5, 119, 107) !important;
+    border: 0.3rem solid;
+}
+
+#categ{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.formulario{
     display: flex;
-    align-items: center;
-    background-color: black;
+    flex-direction: column;
+    gap: 1rem;
+}
+.conformidad{
+
 }
 
-#bg_main_list {
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
+.infoprimaria {
+
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.info{
-    display: block;
-    background-color: rgb(60, 157, 97);
-    color: rgb(255, 211, 15);
+.grade input{
 }
 
 
 
-.contacto{
-    margin-top: -8rem;
-    margin-left: 20rem;
-    height: 25vw;
-}
 
-#img3{
-    margin: 3rem;
-}
 
-#img4{
-    margin: 2rem;
-}
 
-*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
