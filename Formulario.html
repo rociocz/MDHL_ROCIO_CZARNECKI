@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/styles.css">
         
 </head>
-<body>
+<body class="bodyform">
     <header>
         <h1>
             <p class="titulo">Mighty Ducks Hockey League</p>
@@ -28,108 +28,106 @@
     </div> 
     <div>
         <form action="./show_data.html">
-            <fieldset>
-                    <div class="formulario">
-                        <div class="infoprimaria">
-                            <label>
-                                Player's First Name
-                                <input required type="text" name="Name" id="nomb"> 
-                            </label>
-                            <label>
-                                Last Name
-                                <input required type="text" name="Last_Name" id="ape">
-                            </label>
-                            <label>
-                                Streest Address
-                                <input required type="text" name="Addres" id="direc">
-                            </label>
-                            <label>
-                                City
-                                <input required type="text" name="City" id="cit">
-                            </label>
-                            <label>
-                                Zip Code
-                                <input required type="text" name="Zip_Code" id="cp">
-                            </label>
-                            <label>
-                                Birth Date (mm/dd/yyyy)
-                                <input required type="text" name="Birth_Date" id="nac">
-                            </label>
-                            <label>
-                                <p id="categ">Gender:</p>
-                                <input type="radio" name="Gender" value="F">
-                                Female
-                                <input type="radio" name="Gender" value="M">
-                                Male
-                            </label>
-                        </div>
-                        <div class="grade">
-                            <label>
-                                <p id="categ">Grade:</p>
-                                <input type="radio" name="grade" value="PreSchool">
-                                Pre-School                          
-                                <input type="radio" value="1st" name="Grade">
-                                1st
-                                <input type="radio" value="2nd" name="Grade">
-                                2st
-                                <input type="radio" value="3rd" name="Grade">
-                                3rd
-                                <input type="radio" value="4th" name="Grade">
-                                4th
-                                <input type="radio" value="5th" name="Grade">
-                                5th
-                            </label>
-                        </div>
-                        <div class="colegio">
-                            <label for="">
-                                <p id="categ">Which elementary school do you libe near?</p>
-                                <p>Closest School:</p>
-                                <input type="checkbox" id="AJK" name="AJ Katzenmaier">
-                                AJ Katzenmaier
-                                <input type="checkbox" id="GB" name="Greenbay">
-                                Greenbay
-                                <input type="checkbox" id="HAY" name="Howard A Yeager">
-                                Howard A Yeager
-                                <input type="checkbox" id="MPH" name="Marjorie P Hart">
-                                Marjorie P Hart
-                                <input type="checkbox" id="NE" name="North Elementary">
-                                North Elementary
-                                <input type="checkbox" id="SE" name="South Elementary">
-                                South Elementary
-                            </label>     
-                        </div>
-                        <div class="posicion">
-                            <label for="">
-                                <p id="categ">What position(s) do you normally play?(check all that apply)</p>
-                                <input type="checkbox" id="forward" name="Forward">
-                                Forward
-                                <input type="checkbox" id="midfield" name="Midfield">
-                                Midfield
-                                <input type="checkbox" id="defense" name="Defense">
-                                Defense
-                                <input type="checkbox" id="goalkeeper" name="Goalkeeper">
-                                Goalkeeper
-                            </label>
-                        </div>
-                        <div class="talla">
-                            <label for="">
-                                <p id="categ">Uniform Size:</p>
-                                <input type="radio" name="Talle" value="YS">
-                                Youth Smal
-                                <input type="radio"  name="Talle" value="Youth Medium">
-                                Youth Medium
-                                <input type="radio"  name="Talle" value="Youth Large">
-                                Youth Large
-                                <input type="radio"  name="Talle" value="Small">
-                                Small
-                                <input type="radio"  name="Talle" value="Medium">
-                                Medium
-                                <input type="radio" name="Talle" value="Large">
-                                Large
-                                <input type="radio" name="Talle" value="Extra-Large">
-                                Extra-Large
-                            </label>
-                        </div>
+            <fieldset class="formulario">
+                <div>
+                    <div class="infoprimaria">
+                        <label>
+                            Player's First Name
+                            <input required type="text" name="Name" id="nomb"> 
+                        </label>
+                        <label>
+                            Last Name
+                            <input required type="text" name="Last_Name" id="ape">
+                        </label>
+                        <label>
+                            Streest Address
+                            <input required type="text" name="Addres" id="direc">
+                        </label>
+                        <label>
+                            City
+                            <input required type="text" name="City" id="cit">
+                        </label>
+                        <label>
+                            Zip Code
+                            <input required type="text" name="Zip_Code" id="cp">
+                        </label>
+                        <label>
+                            Birth Date (mm/dd/yyyy)
+                            <input required type="text" name="Birth_Date" id="nac">
+                        </label>
+                        <label id="gender">
+                            <p>Gender:</p>
+                            Female<input type="radio" name="Gender" value="F">
+                            Male<input type="radio" name="Gender" value="M">
+                            
+                        </label>
+                    </div>
+                    <div class="grade">
+                        <label>
+                            <p id="categ">Grade:</p>
+                            <input type="radio" name="grade" value="PreSchool">
+                            Pre-School                          
+                            <input type="radio" value="1st" name="Grade">
+                            1st
+                            <input type="radio" value="2nd" name="Grade">
+                            2st
+                            <input type="radio" value="3rd" name="Grade">
+                            3rd
+                            <input type="radio" value="4th" name="Grade">
+                            4th
+                            <input type="radio" value="5th" name="Grade">
+                            5th
+                        </label>
+                    </div>
+                    <div class="colegio">
+                        <label for="">
+                            <p id="categ">Which elementary school do you libe near?</p>
+                            <p id="categ">Closest School:</p>
+                            <input type="checkbox" id="AJK" name="AJ Katzenmaier">
+                            AJ Katzenmaier
+                            <input type="checkbox" id="GB" name="Greenbay">
+                            Greenbay
+                            <input type="checkbox" id="HAY" name="Howard A Yeager">
+                            Howard A Yeager
+                            <input type="checkbox" id="MPH" name="Marjorie P Hart">
+                            Marjorie P Hart
+                            <input type="checkbox" id="NE" name="North Elementary">
+                            North Elementary
+                            <input type="checkbox" id="SE" name="South Elementary">
+                            South Elementary
+                        </label>     
+                    </div>
+                    <div class="posicion">
+                        <label for="">
+                            <p id="categ">What position(s) do you normally play?(check all that apply)</p>
+                            <input type="checkbox" id="forward" name="Forward">
+                            Forward
+                            <input type="checkbox" id="midfield" name="Midfield">
+                            Midfield
+                            <input type="checkbox" id="defense" name="Defense">
+                            Defense
+                            <input type="checkbox" id="goalkeeper" name="Goalkeeper">
+                            Goalkeeper
+                        </label>
+                    </div>
+                    <div class="talla">
+                        <label for="">
+                            <p id="categ">Uniform Size:</p>
+                            <input type="radio" name="Talle" value="YS">
+                            Youth Smal
+                            <input type="radio"  name="Talle" value="Youth Medium">
+                            Youth Medium
+                            <input type="radio"  name="Talle" value="Youth Large">
+                            Youth Large
+                            <input type="radio"  name="Talle" value="Small">
+                            Small
+                            <input type="radio"  name="Talle" value="Medium">
+                            Medium
+                            <input type="radio" name="Talle" value="Large">
+                            Large
+                            <input type="radio" name="Talle" value="Extra-Large">
+                            Extra-Large
+                        </label>
                     </div>
                     <div class="conformidad">
                         <p id="categ">Permission to Play</p>
@@ -137,17 +135,16 @@
                         By signing below, I herenbyagree andauthorizethe above. In addition, by signing below, Ialso acknowledge that I have read the cancellation policy and agree to its terms.
                         </p>
                     </div>
-        </fieldset>
+                </div>
+            </fieldset>
             <fieldset class="firmas">
                 <legend>Signature</legend>
                 <label for="sig">Parent/Guardian Signature</label>
                 <input type="signature" name="Signature" id="sig"> <br>
-
                 <label for="sigdate">Signature Date:</label>
                 <input type="date" name="Signature_date" id="sigdate">
             </fieldset>
-            <input type="submit">
-
+                <input type="submit" class="boton">
         </form>
     </div>
 
