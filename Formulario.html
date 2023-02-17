@@ -65,7 +65,7 @@
                     <div class="grade">
                         <label>
                             <p id="categ">Grade:</p>
-                            <input type="radio" name="grade" value="PreSchool">
+                            <input type="radio" value="PreSchool" name="Grade">
                             Pre-School                          
                             <input type="radio" value="1st" name="Grade">
                             1st
@@ -81,32 +81,33 @@
                     </div>
                     <div class="colegio">
                         <label for="">
-                            <p id="categ">Which elementary school do you libe near?</p>
+                            <p id="categ">Which elementary school do you live near?</p>
                             <p id="categ">Closest School:</p>
-                            <input type="checkbox" id="AJK" name="AJ Katzenmaier">
+                            <input type="checkbox" name="School" value="AJ Katzenmaier"
+                            value="">
                             AJ Katzenmaier
-                            <input type="checkbox" id="GB" name="Greenbay">
+                            <input type="checkbox" name="School" value="Greenbay">
                             Greenbay
-                            <input type="checkbox" id="HAY" name="Howard A Yeager">
+                            <input type="checkbox" name="School" value="Howard A Yeager">
                             Howard A Yeager
-                            <input type="checkbox" id="MPH" name="Marjorie P Hart">
+                            <input type="checkbox" name="School" value="Marjorie P Hart">
                             Marjorie P Hart
-                            <input type="checkbox" id="NE" name="North Elementary">
+                            <input type="checkbox" name="School" value="North Elementary">
                             North Elementary
-                            <input type="checkbox" id="SE" name="South Elementary">
+                            <input type="checkbox" name="School" value="South Elementary">
                             South Elementary
                         </label>     
                     </div>
                     <div class="posicion">
                         <label for="">
                             <p id="categ">What position(s) do you normally play?(check all that apply)</p>
-                            <input type="checkbox" id="forward" name="Forward">
+                            <input type="checkbox" name="Position" value="Forward">
                             Forward
-                            <input type="checkbox" id="midfield" name="Midfield">
+                            <input type="checkbox" name="Position" value="Midfield">
                             Midfield
-                            <input type="checkbox" id="defense" name="Defense">
+                            <input type="checkbox" name="Position" value="Defense">
                             Defense
-                            <input type="checkbox" id="goalkeeper" name="Goalkeeper">
+                            <input type="checkbox" name="Position" value="Goalkeeper">
                             Goalkeeper
                         </label>
                     </div>
@@ -140,11 +141,11 @@
             <fieldset class="firmas">
                 <legend>Signature</legend>
                 <label for="sig">Parent/Guardian Signature</label>
-                <input type="signature" name="Signature" id="sig"> <br>
+                <input required type="signature" name="Signature" id="sig"> <br>
                 <label for="sigdate">Signature Date:</label>
-                <input type="date" name="Signature_date" id="sigdate">
+                <input required type="date" name="Signature_date" id="sigdate">
             </fieldset>
-                <input type="submit" class="boton">
+                <input type="submit" id="boton">
         </form>
     </div>
 
